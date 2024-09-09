@@ -181,7 +181,7 @@ const generarReporte=async()=>{
         surveys.value=res.data.logros_survey
 
     } catch (error) {
-        console.log(error)
+        console.log(error.message)
     }    
 }
 
@@ -195,7 +195,7 @@ const obtenerReporte=async()=>{
         window.open(res.data, '_blank');
 
     } catch (error) {
-        console.log(error)
+        console.log(error.message)
     }
 }
 

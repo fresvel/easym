@@ -1,6 +1,6 @@
 <template>  
+<IndexPage></IndexPage>
 <LoginPage></LoginPage>
-
 </template>
     
 <script setup>
