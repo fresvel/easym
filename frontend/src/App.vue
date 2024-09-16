@@ -1,16 +1,19 @@
-<template>  
-<IndexPage></IndexPage>
-<LoginPage></LoginPage>
+<template>   
+
+<IndexPage/>
+
 </template>
     
 <script setup>
-//import IndexPage from './components/general/IndexPage.vue';
-
-import LoginPage from './components/general/LoginPage.vue';
+import IndexPage from './components/general/IndexPage.vue';
 
 </script>
     
-<style scoped>
+<style scoped lang="scss">
+
+  #app{
+      height: 100vh;
+  }
 
 </style>
     
